@@ -1,6 +1,6 @@
-package Figury1;
+package Figury;
 
-public class Krug {
+public class Krug implements Connect{
     double s;
     double p;
     double pi;

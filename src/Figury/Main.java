@@ -1,4 +1,4 @@
-package Figury1;
+package Figury;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,10 +28,10 @@ public class Main {
         figuries [1] = pryamougolnik1;
         figuries [2] = krug;
         figuries [3] = krug1;
-        figuries[4] = treugolnik;
+        figuries [4] = treugolnik;
 
         for (int i = 0; i < 5; i++) {
-            figuries[i].connect();
+            figuries[i].();
             f = pryamougolnik.p + pryamougolnik1.p + krug.p + krug1.p + treugolnik.p;
             System.out.println(f);
         }

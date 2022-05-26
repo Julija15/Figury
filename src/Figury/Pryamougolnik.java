@@ -1,4 +1,4 @@
-package Figury1;
+package Figury;
 
     public class Pryamougolnik implements Connect {
         double s;

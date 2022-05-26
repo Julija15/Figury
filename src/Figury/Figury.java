@@ -1,4 +1,4 @@
-package Figury1;
+package Figury;
 
 public abstract class Figury {
     protected String name = "";
@@ -7,13 +7,22 @@ public abstract class Figury {
     int a;
     int b;
     int c;
+    double s;
+    double p;
     Figury[] figuries = new Figury[10];
-     public abstract void setFiguries();
-    public abstract void setName();
 
-    public abstract double getS();
+    public Figury(double s, double p) {
+        this.s = s;
+        this.p = p;
+    }
 
-    public abstract double getP();
+    public abstract void Figuries();
+
+    public abstract void Name();
+
+    public abstract double S();
+
+    public abstract double P();
 
     public double Treugolnik() {
         this.name = "treugolnik";
@@ -22,14 +31,12 @@ public abstract class Figury {
         this.c = c;
         return 0;
     }
-
-    public void Krug () {
+    public void Krug() {
         name = "krug";
         this.r = r;
         this.pi = pi;
     }
-
-    public void Pryamougolnik () {
+    public void Pryamougolnik() {
         name = "pryamougolnik";
         this.a = a;
         this.b = b;

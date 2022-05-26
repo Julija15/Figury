@@ -1,16 +1,14 @@
-package Figury1;
+package Figury;
 
     public class Treugolnik implements Connect {
         double p;
+        double s;
         int a;
         int b;
-        int с;
+        int c;
 
         @Override
-        public void s() {
-            if (((a + b) < c) || ((b + c) < a) || ((a + c) < b)) {
-            }
-            double s;
+         public void s() {
             s = Math.sqrt(p * (p - a) * (p - b) * (p - c));
                 System.out.println("Площадь треугольника " + s);
             }
